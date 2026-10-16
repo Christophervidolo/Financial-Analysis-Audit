@@ -1,0 +1,9 @@
+case_id,analysis_type,claimed_value,recalculated_value,difference_claim_minus_expected,unit,status,finding
+FIN-001,Revenue Growth,18.0,15.0,3.0,percent,FAIL,Claim differs from independent recalculation.
+FIN-002,Gross Profit Margin,40.0,40.0,0.0,percent,PASS,Claim matches recalculation within tolerance.
+FIN-003,Current Ratio,1.25,1.5,-0.25,multiple,FAIL,Claim differs from independent recalculation.
+FIN-004,Debt-to-Equity Ratio,0.67,1.5,-0.83,multiple,FAIL,Claim differs from independent recalculation.
+FIN-005,Price-to-Earnings Ratio,10.0,12.0,-2.0,multiple,FAIL,Claim differs from independent recalculation.
+FIN-006,Operating Margin,12.0,12.0,0.0,percent,PASS,Claim matches recalculation within tolerance.
+FIN-007,Revenue Forecast,2200000,2100000.0,100000.0,currency,FAIL,Claim differs from independent recalculation.
+FIN-008,Enterprise Value,1800000,2000000,-200000,currency,FAIL,Claim differs from independent recalculation.

@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Financial Analysis Audit Evaluation Dataset",
+    "dataset_type": "synthetic_test_cases",
+    "source_batch_provided": false,
+    "currency_note": "Illustrative monetary units unless otherwise specified",
+    "purpose": "Test financial calculation accuracy and methodology review"
+  },
+  "cases": [
+    {
+      "case_id": "FIN-001",
+      "analysis_type": "Revenue Growth",
+      "inputs": {
+        "prior_revenue": 1200000,
+        "current_revenue": 1380000
+      },
+      "ai_claim": 18.0,
+      "unit": "percent",
+      "formula": "(current_revenue - prior_revenue) / prior_revenue * 100"
+    },
+    {
+      "case_id": "FIN-002",
+      "analysis_type": "Gross Profit Margin",
+      "inputs": {
+        "revenue": 850000,
+        "cost_of_goods_sold": 510000
+      },
+      "ai_claim": 40.0,
+      "unit": "percent",
+      "formula": "(revenue - cost_of_goods_sold) / revenue * 100"
+    },
+    {
+      "case_id": "FIN-003",
+      "analysis_type": "Current Ratio",
+      "inputs": {
+        "current_assets": 420000,
+        "current_liabilities": 280000
+      },
+      "ai_claim": 1.25,
+      "unit": "multiple",
+      "formula": "current_assets / current_liabilities"
+    },
+    {
+      "case_id": "FIN-004",
+      "analysis_type": "Debt-to-Equity Ratio",
+      "inputs": {
+        "interest_bearing_debt": 600000,
+        "shareholders_equity": 400000
+      },
+      "ai_claim": 0.67,
+      "unit": "multiple",
+      "formula": "interest_bearing_debt / shareholders_equity"
+    },
+    {
+      "case_id": "FIN-005",
+      "analysis_type": "Price-to-Earnings Ratio",
+      "inputs": {
+        "share_price": 48,
+        "earnings_per_share": 4
+      },
+      "ai_claim": 10.0,
+      "unit": "multiple",
+      "formula": "share_price / earnings_per_share"
+    },
+    {
+      "case_id": "FIN-006",
+      "analysis_type": "Operating Margin",
+      "inputs": {
+        "operating_income": 96000,
+        "revenue": 800000
+      },
+      "ai_claim": 12.0,
+      "unit": "percent",
+      "formula": "operating_income / revenue * 100"
+    },
+    {
+      "case_id": "FIN-007",
+      "analysis_type": "Revenue Forecast",
+      "inputs": {
+        "base_revenue": 2000000,
+        "growth_rate_percent": 5
+      },
+      "ai_claim": 2200000,
+      "unit": "currency",
+      "formula": "base_revenue * (1 + growth_rate_percent / 100)"
+    },
+    {
+      "case_id": "FIN-008",
+      "analysis_type": "Enterprise Value",
+      "inputs": {
+        "ebitda": 250000,
+        "ev_ebitda_multiple": 8
+      },
+      "ai_claim": 1800000,
+      "unit": "currency",
+      "formula": "ebitda * ev_ebitda_multiple"
+    }
+  ]
+}
